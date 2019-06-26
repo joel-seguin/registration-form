@@ -10,28 +10,28 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
-  <section>
-    <div class="">
-      <h1>Want to go to Mars?</h1>
-      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <form class="" action="index.html" method="post">
-        <fieldset>
-          <legend>Personal details</legend>
+<body class="grid">
+  <section class="island unit">
+    <div class="max-length xs-1 s-1 m-1 l-1">
+      <h1 class="normal push">Want to go to Mars?</h1>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <form action="index.html" method="post">
+        <fieldset class="push">
+          <legend class="italic mega">Personal details</legend>
         </fieldset>
-        <div class="">
+        <div class="name push">
           <label for="">name</label>
           <input id="name" name="name" required>
         </div>
-        <div class="">
+        <div class="age push">
           <label for="age">Age</label>
           <input type="number" name="name" id="age" required>
         </div>
-        <div class="">
+        <div class="push email">
           <label for="email">Email</label>
           <input type="email" name="email" id="email" required>
         </div>
-        <div class="">
+        <div class="subj push">
           <label for="subject">Physical fitness</label>
           <select name="name" id="subject">
             <option>Super-human</option>
@@ -40,18 +40,18 @@
             <option>A little couch-potato-y</option>
           </select>
         </div>
-        <div class="">
+        <div class="push">
           <label for="details">Address</label>
           <textarea name="name" id="details" required></textarea>
         </div>
-        <fieldset>
+        <fieldset class="push">
           <legend>Mission statement</legend>
         </fieldset>
-        <div class="">
+        <div class="push">
           <label for="question">Why do you want to go to Mars?</label>
           <textarea name="name" id="question" required></textarea>
         </div>
-        <div class="">
+        <div class="push center-text">
           <button type="submit" class="btn">Register for the trip!</button>
         </div>
         <input type="hidden" name="_subject" value="Request to join the mission">
